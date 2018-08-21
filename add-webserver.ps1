@@ -1,1 +1,5 @@
-Add-WindowsFeature -Name Web-Server
+param
+(
+    [string]$featureName,
+)
+Add-WindowsFeature -Name $featureName
