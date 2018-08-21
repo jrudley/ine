@@ -1,1 +1,1 @@
-Add-WindowsFeature -Name Web-Server -Force
+Add-WindowsFeature -Name Web-Server
