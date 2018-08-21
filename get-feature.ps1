@@ -5,7 +5,7 @@ param
 
 $feature = Get-WindowsFeature -Name $featureName
 
-if ($feature)
+if ($feature.Installed)
 {
 Write-Output "Feature $featureName exists"
 }
