@@ -1,5 +1,5 @@
 param
 (
-    [string]$featureName,
+    [string]$featureName
 )
 Add-WindowsFeature -Name $featureName
